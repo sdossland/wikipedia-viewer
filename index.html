@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="searchLayout centered">
+    <div class="search">
+        <div class="row">
+            <div id="random">Click here for a random article</div>
+        </div>
+        <div class="row">
+            <div class="searchLink">
+                <div class="searchIcon">
+                    <i class="fa fa-search fa-4x"></i>
+                </div>
+                <div class="searchForm">
+                    <form id="search">
+                        <input type="text" placeholder="search">
+                        <span class="searchClose">x</span>
+                        <button type="submit" class="sbtn"> Search </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">Click icon to search</div>
+</div>
+<div class="results"></div>
+</body>
+</html>
